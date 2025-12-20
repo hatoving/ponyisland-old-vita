@@ -19,7 +19,7 @@ The depot you have installed should be under ``"InstalledDepots``.
 - Download the repository and extract it to a new folder.
 - Go to your game folder, grab all of it's contents (``PonyIsland.exe``, ``PonyIsland_Data`` folder, etc.) and put them in 
   a new folder called ``game`` (case-sensitive) in the repository folder.
-- Run the ``applyPatch.bat`` file and let it sit until it shows "Done!" on the command line.
+- Run the ``applyPatch.bat`` file on Windows or the ``applyPatch.sh`` file on Linux and let it sit until it shows "Done!" on the command line.
 - There now should be a folder called ``patchedFiles`` with all of the patched content inside.
 
 Congrats, you now have the patched files. But we're not done just yet.
