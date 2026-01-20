@@ -12,14 +12,14 @@ This repository contains a stripped VPK file for the game and a series of patche
 ## Steam
 If you have the latest Steam files for the game, then continue on with this section.
 
-Note that the files you need are in the depot with it's ID being ``405641``.
+Note that the files you need are in the depot with it's ID being ``405641`` and the manifest with its's ID being ``5051749903585164772``.
 You can check what depot you currently possess by taking a look at the file in ``(STEAM INSTALL HERE)/steamapps/appmanifest_405640.acf``.
-The depot you have installed should be under ``"InstalledDepots``.
+The depot and manifest you have installed should be under ``"InstalledDepots``.
 
 - Download the repository and extract it to a new folder.
 - Go to your game folder, grab all of it's contents (``PonyIsland.exe``, ``PonyIsland_Data`` folder, etc.) and put them in 
   a new folder called ``game`` (case-sensitive) in the repository folder.
-- Run the ``applyPatch.bat`` file and let it sit until it shows "Done!" on the command line.
+- Run the ``applyPatch.bat`` file on Windows or the ``applyPatch.sh`` file on Linux and let it sit until it shows "Done!" on the command line.
 - There now should be a folder called ``patchedFiles`` with all of the patched content inside.
 
 Congrats, you now have the patched files. But we're not done just yet.
